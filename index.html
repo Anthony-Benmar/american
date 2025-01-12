@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMERICAN</title>
+    <link rel="shortcut icon" href="./images/tierra.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    
+    <!--Meta etiquetas requeridas para subir este sitio a internet-->
+    <meta name="theme-color" content="#2091f9">
+
+    <meta name="title" content="Aprende CSS desde Cero">
+    <meta name="description" content="Hola, soy una descripcion cuando busques algo de mi tematica en google.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Anthony-Benmar.github.io">
+    <meta property="og:title" content="Aprende CSS desde Cero">
+    <meta property="og:description" content="Hola, soy una descripcion cuando busques algo de mi tematica en google.">
+    <meta property="og:image" content="https://Anthony-Benmar.github.io/images/css.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Aprende CSS desde Cero">
+    <meta property="twitter:description" content="Hola, soy una descripcion cuando busques algo de mi tematica en google.">
+    <meta property="twitter:image" content="https://Anthony-Benmar.github.io/images/css.jpg">
+</head>
+
+<body>
+    <!--HTML para la primera parte, titulo y presentacion de pagina-->
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="./images/logo1.png" alt="Logo de la empresa" style="width: 40%; height: 100%; object-fit: cover;">
+            </div>
+            
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#nosotros" class="nav__links">Nosotros</a>
+                </li>
+                <li class="nav__items">
+                    <a href="./catalogoValvulas.html" class="nav__links">Catalogo</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contacto" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">AMERICAN</h1>
+            <p class="hero__paragraph">
+                Soluciones industriales de alta calidad.</p>
+        </section>
+    </header>
+
+    <!--HTML para la segunda parte-->
+    <main>
+        <section id="nosotros" class="container about">
+            <h2 class="subtitle">Nosotros</h2>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/ubicacion1.png" class="about__icon">
+                    <h3 class="about__title">Ubicación</h3>
+                    <p class="about__paragraph">Calle Lima Mz. B dpto. 501 Lt. 7 Urb. Barrio Profesional - Cusco</p>
+                </article>
+                <article class="about__icons">
+                    <img src="./images/telefono1.png" class="about__icon">
+                    <h3 class="about__title">Teléfono</h3>
+                    <p class="about__paragraph">+51 990 500 001</p>
+                </article>
+                <article class="about__icons">
+                    <img src="./images/correo.png" class="about__icon">
+                    <h3 class="about__title">E-mail</h3>
+                    <p class="about__paragraph">juancarlosbaca@americanys.pe</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="catalogo" class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">AMERICAN REPRESENTACIONES Y SERVICIOS</h2>
+                    <p class="knowledge__paragraph">Es una empresa cusqueña con más de 24 años de
+                        experiencia en el mercado nacional. Somos especialistas
+                        en productos y equipos orientados al sector minero
+                        industrial. Tenemos abastecimiento continuo de y variado
+                        de válvulas, productos de alta tecnología relacionados a la
+                        industria minera y comercial</p>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/logo1.png" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        
+
+        <section class="price container">
+            <h2 class="subtitle">Productos mas vendidos</h2>
+
+            <dive class="price__table">
+                <div class="price__element">
+                    <h3 class="price__price">Valvulas</h3>
+
+                    <div class="price__items">
+                        <p class="price__features" style="font-weight: bold; font-size: 30px;">Tipos</p>
+                        <p class="price__features">Compuerta</p>
+                        <p class="price__features">Cuchilla</p>
+                        <p class="price__features">Globo</p>
+                        <p class="price__features">Angular</p>
+                        <p class="price__features">Check Swing</p>
+                        <p class="price__features">y mas tipos.</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Ver mas</a>
+                </div>
+
+                <div class="price__element price__element--best">
+                    <h3 class="price__price">Dispositivos de Iluminación</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Linterna MH23</p>
+                        <p class="price__features">Linterna TM28</p>
+                        <p class="price__features">Luminaria La X4</p>
+                        <p class="price__features">Luminaria La X10</p>
+                        
+                    </div>
+
+                    <a href="#" class="price__cta">Ver mas</a>
+                </div>
+
+                <div class="price__element">
+                    <h3 class="price__price">Manometros ASHCROFT</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Los Manómetros, son
+                            ideales para el monitoreo
+                            preciso de la presión
+                            diferencial dentro de
+                            ambientes de proceso
+                            difíciles.</p>
+                            <h3 class="price__price">Equipo Milwaukee</h3>
+                    </div>
+
+                    <a href="#" class="price__cta">Ver mas</a>
+                </div>
+            </dive>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Trabajamos de la mano con, <span class="testimony__course">ANTAPACCAY</span></h2>
+                        <p class="testimony__review">Ubicada en la provincia cusqueña de Espinar, La compañía Minera Antapaccay es una de las empresas mineras más modernas del Perú.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/antapacay.jpg" class="testimony__img">
+                    </figure>
+                </section>
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Trabajamos de la mano con, <span class="testimony__course">HUDBAY</span></h2>
+                        <p class="testimony__review">Esta es una compañía minera de origen canadiense con más de 90 años de experiencia en el desarrollo de minas de larga duración y bajo costo en las Américas.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/hudbay.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Trabajamos de la mano con, <span class="testimony__course">LAS BAMBAS</span></h2>
+                        <p class="testimony__review">Esta es una de las minas de cobre más importantes y de mayor potencial del mundo.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/bambas.jpg" class="testimony__img">
+                    </figure>
+                </section>
+                <img src="./images/rigtharrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Como puedo contactarme con ustedes?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A consequuntur sequi enim libero odio modi veritatis cumque expedita cum minus velit, illum accusamus nostrum iure iusto harum architecto temporibus delectus!Lorem ipsum, dolor sit amet consectetur adipisicing elit. A consequuntur sequi enim libero odio modi veritatis cumque expedita cum minus velit, illum accusamus nostrum iure iusto harum architecto temporibus delectus!</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cual es el precio de sus productos?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A consequuntur sequi enim libero odio modi veritatis cumque expedita cum minus velit, illum accusamus nostrum iure iusto harum architecto temporibus delectus!Lorem ipsum, dolor sit amet consectetur adipisicing elit. A consequuntur sequi enim libero odio modi veritatis cumque expedita cum minus velit, illum accusamus nostrum iure iusto harum architecto temporibus delectus!</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Puedo contactarme con un tecnico?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A consequuntur sequi enim libero odio modi veritatis cumque expedita cum minus velit, illum accusamus nostrum iure iusto harum architecto temporibus delectus!Lorem ipsum, dolor sit amet consectetur adipisicing elit. A consequuntur sequi enim libero odio modi veritatis cumque expedita cum minus velit, illum accusamus nostrum iure iusto harum architecto temporibus delectus!</p>
+                    </div>
+                </article>
+            </section>
+
+        </section>
+
+        <section class="footer">
+            <section class="footer__container container" id="contanto">
+                <nav class="nav nav--footer">
+                    <h2 class="footer__title">Contactanos</h2>
+                    <ul class="nav__link nav__link--footer">
+                        <li class="nav__items">
+                            <a href="#inicio" class="nav__links">Inicio</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="#nosotros" class="nav__links">Nosotros</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="./catalogoValvulas.html" class="nav__links">Catalogo</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="#contacto" class="nav__links">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <form class="footer__form"   action="https://formspree.io/f/xyyojnlk"
+                method="POST">
+                    <h2 class="footer__newsletter">Recibirás asesoría</h2>
+                    <div class="footer__inputs">
+                        <input type="email" placeholder="Email:" class="footer__input" name="email">
+                        <input type="submit" value="Registrate" class="footer__submit">
+                    </div>
+                </form>
+            </section>
+    
+            <section class="footer__copy container">
+                <div class="footer__social">
+                    <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                    <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                    <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+                </div>
+                <h3 class="footer__copyright">Derechos reservados &copy; AMERICAN representaciones y servicios</h3>
+            </section>
+        </section>
+
+    </main>
+
+    
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+
+    <button id="go-to-top" onclick="goToTop()">
+        <img src="./images/arrow-up.png" alt="Volver arriba">
+        <p>Volver arriba</p>
+    </button>
+    
+    <script>
+        // Función para desplazarse suavemente hacia arriba
+        function goToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Mostrar u ocultar el botón según el desplazamiento de la página
+        window.onscroll = function () {
+            var button = document.getElementById('go-to-top');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+        };
+    </script>
+
+<a href="https://wa.me/51990500001" class="whatsapp-fixed" target="_blank" rel="noopener noreferrer">
+    <img src="./images/whatsapp (1).png" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+
+
+</body>
+
+</html>
